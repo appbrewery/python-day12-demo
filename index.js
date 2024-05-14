@@ -68,7 +68,7 @@ $(document).on("keydown", function (e) {
     } else {
       if (inputValues[0].val.toLowerCase().trim() == "easy") {
         turns = 10;
-      } else if (inputValues[0].val.toLowerCase().trim() == "hard") {
+      } else (inputValues[0].val.toLowerCase().trim() == "hard") {
         turns = 5;
       }
     }
