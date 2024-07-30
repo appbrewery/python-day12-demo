@@ -31,7 +31,7 @@ function restart() {
   NewLine(logo, false);
   NewLine("Welcome to the Number Guessing Game!", false);
   NewLine("I'm thinking of a number between 1 and 100.", false);
-  NewLine(`Pssst, the correct answer is ${answer}`);
+  // NewLine(`Pssst, the correct answer is ${answer}`);
   NewLine("Choose a difficulty. Type 'easy' or 'hard': ", true);
 }
 
